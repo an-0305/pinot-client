@@ -1,0 +1,31 @@
+{
+  "schemaName": "sales",
+  "dimensionFieldSpecs": [
+    {
+      "name": "date",
+      "dataType": "STRING"
+    },
+    {
+      "name": "storeCode",
+      "dataType": "INT"
+    },
+    {
+      "name": "store",
+      "dataType": "STRING"
+    },
+    {
+      "name": "divisionCode",
+      "dataType": "INT"
+    },
+    {
+      "name": "division",
+      "dataType": "STRING"
+    }
+  ],
+  "metricFieldSpecs": [
+    {
+      "name": "totalPrice",
+      "dataType": "INT"
+    }
+  ]
+}

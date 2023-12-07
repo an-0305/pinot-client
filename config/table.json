@@ -1,0 +1,17 @@
+{
+  "tableName": "sales",
+  "segmentsConfig": {
+    "replication": "1",
+    "schemaName": "sales"
+  },
+  "tableIndexConfig": {
+    "invertedIndexColumns": [],
+    "loadMode": "MMAP"
+  },
+  "tenants": {
+    "broker": "DefaultTenant",
+    "server": "DefaultTenant"
+  },
+  "tableType": "OFFLINE",
+  "metadata": {}
+}
